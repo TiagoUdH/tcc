@@ -1,0 +1,2 @@
+experimento,n_imagens,insertion_auc,deletion_auc,score,score_aleatorio,ganho_sobre_aleatorio,p_wilcoxon,gradcam_melhor_que_aleatorio_5%
+EfficientNetV2B0 / bracol,100,0.9540006073634436,0.4309820467745841,0.5230185605888596,0.26148567541737483,0.2615328851714849,1.3809861583256417e-14,Sim
