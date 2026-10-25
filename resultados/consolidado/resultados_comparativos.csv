@@ -1,7 +1,7 @@
 Modelo,Dataset,Acurácia (méd),Acurácia (dp),F1-Macro (méd),F1-Macro (dp),Precision-Macro (méd),Recall-Macro (méd),N_seeds,Lat. Em Memória (ms),Lat. Exportado (ms),Tamanho Exportado (MB),Formato Exportado
 EfficientNetV2B0,bracol,0.9698,0.0037,0.9672,0.0036,0.9658,0.9689,3,315.51,36.78,6.91,TFLite
 ViT,bracol,0.965,0.0079,0.9624,0.0082,0.9631,0.9619,3,7.22,53.44,42.26,PyTorch Mobile INT8 (.ptl)
-MobileNetV3Large,bracol,0.9462,0.0112,0.9417,0.0124,0.9442,0.9398,3,,,,TFLite
+MobileNetV3Large,bracol,0.9462,0.0112,0.9417,0.0124,0.9442,0.9398,3,,19.59,3.6,TFLite
 MobileNetV3Small,bracol,0.9438,0.0088,0.9368,0.0098,0.936,0.9396,3,132.68,4.66,1.2,TFLite
 MobileNetV2,bracol,0.9324,0.0037,0.9245,0.0033,0.9302,0.9199,3,130.56,18.46,2.55,TFLite
 NASNetMobile,bracol,0.9087,0.0166,0.8987,0.0182,0.8986,0.9,3,641.32,49.0,5.64,TFLite
