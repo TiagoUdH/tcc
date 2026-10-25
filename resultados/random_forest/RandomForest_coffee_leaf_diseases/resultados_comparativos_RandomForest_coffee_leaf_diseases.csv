@@ -1,0 +1,2 @@
+Modelo,Dataset,Acurácia (méd),Acurácia (dp),F1-Macro (méd),F1-Macro (dp),Precision-Macro (méd),Recall-Macro (méd),N_seeds,Lat. Em Memória (ms),Lat. Exportado (ms),Tamanho Exportado (MB),Formato Exportado
+RandomForest,coffee_leaf_diseases,0.5361,0.0,0.5159,0.0017,0.5364,0.5495,3,33.68,17.64,7.25,ONNX (float32)

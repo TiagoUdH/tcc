@@ -1,0 +1,2 @@
+Modelo,Dataset,Acurácia (méd),Acurácia (dp),F1-Macro (méd),F1-Macro (dp),Precision-Macro (méd),Recall-Macro (méd),N_seeds,Lat. Em Memória (ms),Lat. Exportado (ms),Tamanho Exportado (MB),Formato Exportado
+RandomForest,jmuben,0.9999,0.0,0.9999,0.0,0.9999,0.9998,3,29.61,16.57,8.79,ONNX (float32)

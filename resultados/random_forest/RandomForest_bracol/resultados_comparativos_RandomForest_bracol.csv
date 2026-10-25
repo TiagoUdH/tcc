@@ -1,0 +1,2 @@
+Modelo,Dataset,Acurácia (méd),Acurácia (dp),F1-Macro (méd),F1-Macro (dp),Precision-Macro (méd),Recall-Macro (méd),N_seeds,Lat. Em Memória (ms),Lat. Exportado (ms),Tamanho Exportado (MB),Formato Exportado
+RandomForest,bracol,0.5322,0.0056,0.5202,0.0067,0.5279,0.5366,3,19.47,16.42,0.93,ONNX (float32)

@@ -1,0 +1,24 @@
+Modelo,Dataset,Acurácia (méd),Acurácia (dp),F1-Macro (méd),F1-Macro (dp),Precision-Macro (méd),Recall-Macro (méd),N_seeds,Lat. Em Memória (ms),Lat. Exportado (ms),Tamanho Exportado (MB),Formato Exportado
+EfficientNetV2B0,bracol,0.9698,0.0037,0.9672,0.0036,0.9658,0.9689,3,315.51,36.78,6.91,TFLite
+ViT,bracol,0.965,0.0079,0.9624,0.0082,0.9631,0.9619,3,7.22,53.44,42.26,PyTorch Mobile INT8 (.ptl)
+MobileNetV3Large,bracol,0.9462,0.0112,0.9417,0.0124,0.9442,0.9398,3,,,,TFLite
+MobileNetV3Small,bracol,0.9438,0.0088,0.9368,0.0098,0.936,0.9396,3,132.68,4.66,1.2,TFLite
+MobileNetV2,bracol,0.9324,0.0037,0.9245,0.0033,0.9302,0.9199,3,130.56,18.46,2.55,TFLite
+NASNetMobile,bracol,0.9087,0.0166,0.8987,0.0182,0.8986,0.9,3,641.32,49.0,5.64,TFLite
+RandomForest,bracol,0.5322,0.0056,0.5202,0.0067,0.5279,0.5366,3,19.47,16.42,0.93,ONNX (float32)
+EfficientNetV2B0,coffee_leaf_diseases,0.9966,0.006,0.9957,0.0074,0.9972,0.9944,3,329.03,37.11,7.05,TFLite
+ViT,coffee_leaf_diseases,0.9811,0.003,0.9826,0.0027,0.9823,0.9842,3,7.47,52.79,42.26,PyTorch Mobile INT8 (.ptl)
+MobileNetV3Large,coffee_leaf_diseases,0.9381,0.0089,0.9342,0.0132,0.9474,0.9261,3,156.08,12.96,3.6,TFLite
+MobileNetV3Small,coffee_leaf_diseases,0.9304,0.0045,0.9288,0.0098,0.9457,0.9202,3,134.1,4.52,1.13,TFLite
+MobileNetV2,coffee_leaf_diseases,0.8823,0.0149,0.8796,0.0168,0.8814,0.883,3,137.84,19.16,2.81,TFLite
+NASNetMobile,coffee_leaf_diseases,0.8497,0.0284,0.847,0.0281,0.8517,0.8463,3,682.27,51.83,5.0,TFLite
+RandomForest,coffee_leaf_diseases,0.5361,0.0,0.5159,0.0017,0.5364,0.5495,3,33.68,17.64,7.25,ONNX (float32)
+RandomForest,jmuben,0.9999,0.0,0.9999,0.0,0.9999,0.9998,3,29.61,16.57,8.79,ONNX (float32)
+ViT,jmuben,0.9998,0.0001,0.9998,0.0002,0.9998,0.9998,3,7.17,45.98,42.26,PyTorch Mobile INT8 (.ptl)
+EfficientNetV2B0,rocole,0.8319,0.0171,0.739,0.0401,0.7731,0.732,3,322.19,36.34,7.05,TFLite
+ViT,rocole,0.815,0.0129,0.7374,0.0224,0.7943,0.7311,3,7.44,52.42,42.26,PyTorch Mobile INT8 (.ptl)
+MobileNetV2,rocole,0.7232,0.0171,0.6562,0.0091,0.6694,0.6726,3,136.16,18.4,2.6,TFLite
+MobileNetV3Large,rocole,0.6949,0.0478,0.6175,0.0538,0.6473,0.6091,3,160.35,13.63,3.27,TFLite
+MobileNetV3Small,rocole,0.7203,0.0489,0.6091,0.0404,0.6677,0.6044,3,131.67,4.51,2.06,TFLite
+NASNetMobile,rocole,0.6709,0.0233,0.4955,0.0135,0.5715,0.5108,3,682.69,52.81,5.02,TFLite
+RandomForest,rocole,0.5636,0.0085,0.4321,0.0154,0.4595,0.4336,3,35.44,18.3,9.3,ONNX (float32)
